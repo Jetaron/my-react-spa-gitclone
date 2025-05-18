@@ -1,0 +1,13 @@
+# Ігнорувати node_modules з усіх підпапок
+**/node_modules
+
+# Специфічно для React-проекту (якщо там є щось ще)
+my-react-spa-0.1/build
+my-react-spa-0.1/.pnp
+my-react-spa-0.1/.pnp.js
+my-react-spa-0.1/coverage
+
+# Файли логів npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
